@@ -1,0 +1,23 @@
+div.sidebar {
+display: table;
+zoom: 1;
+padding: 7px;
+}
+
+div.container {
+    width: 300;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    float: right;
+}
+
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+
+body {
+    background-color: #cccccc;
+}
