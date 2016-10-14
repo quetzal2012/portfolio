@@ -1,15 +1,21 @@
 div.sidebar {
-display: table;
+display: auto;
 zoom: 1;
 padding: 7px;
+
 }
+body {
+  background-image: url("moscow.jpg")
+    background-color: #cccccc;
+  }
 
 div.container {
-    width: 300;
+    width: auto;
     border: 25px solid green;
     padding: 25px;
     margin: 25px;
-    float: right;
+    box-sizing: border-box;
+
 }
 
 div.cities {
@@ -18,6 +24,10 @@ div.cities {
     margin: 20px 0 20px 0;
     padding: 20px;
 
-body {
-    background-color: #cccccc;
-}
+  }
+    div.projects {
+        background-color: black;
+        color: red;
+        margin: 20px 0 20px 0;
+        padding: 20px;
+      }
